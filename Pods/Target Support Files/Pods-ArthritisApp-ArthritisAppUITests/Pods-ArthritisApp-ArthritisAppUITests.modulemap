@@ -1,0 +1,6 @@
+framework module Pods_ArthritisApp_ArthritisAppUITests {
+  umbrella header "Pods-ArthritisApp-ArthritisAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

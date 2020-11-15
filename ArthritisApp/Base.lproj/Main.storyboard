@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uuZ-j5-wd5">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="QAd-WN-IqX">
+            <objects>
+                <navigationController id="0h3-wu-epc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="vE6-kv-CvT"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g2B-vk-pH2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="Li9-Hk-jWx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIs-OI-BPc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1559" y="-258"/>
+        </scene>
+        <!--Home -->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Arthritis_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKt-ZR-tNt">
+                                <rect key="frame" x="32" y="379" width="350" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.35704509490000003" green="0.73469026230000001" blue="0.98039215690000003" alpha="0.88259845889999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                <state key="normal" title="LEARN">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="LearnPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="FNV-7l-Ha6"/>
+                                    <segue destination="qfI-jC-c0G" kind="push" id="o6R-g2-xRG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzz-RT-Y2i">
+                                <rect key="frame" x="32" y="514" width="350" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1966983584" green="0.50849272349999997" blue="0.83767379249999996" alpha="0.88728060789999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                <state key="normal" title="PROGRESS">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="ProgressPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="RUv-gh-raA"/>
+                                    <segue destination="vc3-QF-cpr" kind="show" id="lNQ-yT-xPQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgh-H2-Gy1">
+                                <rect key="frame" x="32" y="649" width="350" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.03034788196" green="0.24313820080000001" blue="0.65714229059999996" alpha="0.75949807359999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                <state key="normal" title="ABOUT">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="infoPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="mh4-6R-neb"/>
+                                    <action selector="infopress:" destination="BnP-uf-ecO" eventType="touchUpInside" id="swk-Zq-eL0"/>
+                                    <segue destination="VBY-bJ-sHc" kind="push" id="41p-lY-JuP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home " image="house.fill" catalog="system" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="LlG-pf-y6J"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+                <exit id="BnP-uf-ecO" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-2039" y="585"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="adj-Xb-8xf">
+            <objects>
+                <viewController id="M1u-dF-YGb" customClass="InfoViewController" customModule="Arthritis_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bdQ-Nk-ial">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="INFO screen" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="p8f-zp-RSq">
+                                <rect key="frame" x="63" y="218" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="esP-ew-TKT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" image="questionmark.circle.fill" catalog="system" id="hmh-Kj-itK"/>
+                    <navigationItem key="navigationItem" id="SZB-eq-taa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z2x-3r-Ozq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1470" y="571"/>
+        </scene>
+        <!--Progress-->
+        <scene sceneID="3f3-oO-AaT">
+            <objects>
+                <viewController id="q9a-rN-F0M" customClass="ProgressViewController" customModule="Arthritis_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z5n-dm-9dr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="PROGRESS screen" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qk0-Gq-RjG">
+                                <rect key="frame" x="52" y="110" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="qDP-Yk-yH4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Progress" image="chart.bar.fill" catalog="system" id="mkE-ba-z5K"/>
+                    <navigationItem key="navigationItem" id="ehL-ge-Lh3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KHm-ux-F1H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339" y="571"/>
+        </scene>
+        <!--Learn-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Arthritis_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="LEARN screen" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qBk-GC-YPv">
+                                <rect key="frame" x="87" y="527" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Learn" image="book.fill" catalog="system" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="dZx-dg-vyj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-623.1884057971015" y="570.6521739130435"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Kid-eN-qw6">
+            <objects>
+                <tabBarController id="uuZ-j5-wd5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vGc-84-oH4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BGg-0J-fTW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0h3-wu-epc" kind="relationship" relationship="viewControllers" id="K6K-f3-soc"/>
+                        <segue destination="gKo-oI-nAF" kind="relationship" relationship="viewControllers" id="xZ6-th-eJj"/>
+                        <segue destination="0QD-dA-Gf3" kind="relationship" relationship="viewControllers" id="QzO-9R-HDn"/>
+                        <segue destination="PHM-vQ-AkG" kind="relationship" relationship="viewControllers" id="5bN-l9-oLp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1sF-4R-klV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78" y="-1046"/>
+        </scene>
+        <!--Learn-->
+        <scene sceneID="vrO-zD-MWr">
+            <objects>
+                <navigationController id="gKo-oI-nAF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Learn" image="book.fill" catalog="system" id="qzP-Bl-WCJ"/>
+                    <navigationItem key="navigationItem" id="Lnv-om-Tbc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8SD-6c-zIl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="5yA-7u-OxS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohc-nW-gH5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-578" y="-258"/>
+        </scene>
+        <!--Progress-->
+        <scene sceneID="0RY-Y4-yVR">
+            <objects>
+                <navigationController id="0QD-dA-Gf3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Progress" image="chart.bar.fill" catalog="system" id="GQZ-CO-NVd"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="56p-ad-8n1">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="q9a-rN-F0M" kind="relationship" relationship="rootViewController" id="GnQ-RU-gLa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OsA-go-R8A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="-258"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="VAB-z9-4UX">
+            <objects>
+                <navigationController id="PHM-vQ-AkG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="questionmark.circle.fill" catalog="system" id="HMm-LI-Ixp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QuF-Vx-wru">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="M1u-dF-YGb" kind="relationship" relationship="rootViewController" id="aEz-gG-0ir"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5IE-ll-hdF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1419" y="-258"/>
+        </scene>
+        <!--Learn-->
+        <scene sceneID="8e1-Yg-78f">
+            <objects>
+                <viewController id="qfI-jC-c0G" customClass="SecondViewController" customModule="Arthritis_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Da3-VY-D8o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="LEARN screen" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PGp-J2-AHE">
+                                <rect key="frame" x="87" y="231" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="r9p-6X-WuK"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Learn" image="book.fill" catalog="system" id="JXf-bB-Qvu"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="bgv-kh-arN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ST-ks-2eS" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2704" y="1330"/>
+        </scene>
+        <!--Progress-->
+        <scene sceneID="mf1-9f-dtB">
+            <objects>
+                <viewController id="vc3-QF-cpr" customClass="ProgressViewController" customModule="Arthritis_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ux9-12-4xC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="PROGRESS screen" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cdJ-cO-IfK">
+                                <rect key="frame" x="52" y="110" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wjK-dd-M9h"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Progress" image="chart.bar.fill" catalog="system" id="ds7-YS-4BP"/>
+                    <navigationItem key="navigationItem" id="dm8-o3-XBj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDD-gy-jbJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1759" y="1330"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="pPi-17-tRo">
+            <objects>
+                <viewController id="VBY-bJ-sHc" customClass="InfoViewController" customModule="Arthritis_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HWr-kx-V1g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="INFO screen" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x2j-PQ-3sY">
+                                <rect key="frame" x="63" y="218" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="lJk-cE-K51"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Info" image="questionmark.circle.fill" catalog="system" id="yol-Io-6mg"/>
+                    <navigationItem key="navigationItem" id="vbO-eT-WWA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5tN-dg-ErW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-971" y="1330"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book.fill" catalog="system" width="128" height="100"/>
+        <image name="chart.bar.fill" catalog="system" width="128" height="89"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

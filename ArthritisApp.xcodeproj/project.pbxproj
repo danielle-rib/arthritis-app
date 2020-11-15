@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BB69B66DCA93074BFE6B87C /* Pods_ArthritisAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B817267F4F06AE895802DD45 /* Pods_ArthritisAppTests.framework */; };
+		2C12FE9DCAAF1CBEB0A8AA57 /* Pods_ArthritisApp_ArthritisAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95680C996C6830F73D67B39 /* Pods_ArthritisApp_ArthritisAppUITests.framework */; };
+		6DBA084166DA611C71EDEF77 /* Pods_ArthritisApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF42F41C84F3E1256A5AD9F /* Pods_ArthritisApp.framework */; };
+		8728323C2542718600ABE2DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728323B2542718600ABE2DA /* AppDelegate.swift */; };
+		8728323E2542718600ABE2DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728323D2542718600ABE2DA /* SceneDelegate.swift */; };
+		872832402542718600ABE2DA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728323F2542718600ABE2DA /* FirstViewController.swift */; };
+		872832422542718600ABE2DA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872832412542718600ABE2DA /* SecondViewController.swift */; };
+		872832452542718600ABE2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872832432542718600ABE2DA /* Main.storyboard */; };
+		872832472542718A00ABE2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872832462542718A00ABE2DA /* Assets.xcassets */; };
+		872832552542718B00ABE2DA /* ArthritisAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872832542542718B00ABE2DA /* ArthritisAppTests.swift */; };
+		872832602542718B00ABE2DA /* ArthritisAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728325F2542718B00ABE2DA /* ArthritisAppUITests.swift */; };
+		8728326E2542767900ABE2DA /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728326D2542767900ABE2DA /* ProgressViewController.swift */; };
+		87283270254276AA00ABE2DA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8728326F254276AA00ABE2DA /* InfoViewController.swift */; };
+		8772C5B225560E4A00ED32A6 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 8772C5B125560E4900ED32A6 /* loading.json */; };
+		8772C5B62556132300ED32A6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8772C5B52556132300ED32A6 /* Launch Screen.storyboard */; };
+		8772C5BC255744CA00ED32A6 /* 7751-load.json in Resources */ = {isa = PBXBuildFile; fileRef = 8772C5BB255744CA00ED32A6 /* 7751-load.json */; };
+		877883A82548F58500465549 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877883A72548F58400465549 /* GoogleService-Info.plist */; };
+		877883A92548F58500465549 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877883A72548F58400465549 /* GoogleService-Info.plist */; };
+		877883AA2548F58500465549 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877883A72548F58400465549 /* GoogleService-Info.plist */; };
+		877883B6254CE19300465549 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877883B5254CE19200465549 /* WalkthroughContentViewController.swift */; };
+		87788432254D007800465549 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87788431254D007800465549 /* Onboarding.storyboard */; };
+		87788434254DFD0200465549 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87788433254DFD0200465549 /* WalkthroughPageViewController.swift */; };
+		87788436254E0FDE00465549 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87788435254E0FDE00465549 /* WalkthroughViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		872832512542718B00ABE2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872832302542718600ABE2DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872832372542718600ABE2DA;
+			remoteInfo = "Arthritis App";
+		};
+		8728325C2542718B00ABE2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 872832302542718600ABE2DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872832372542718600ABE2DA;
+			remoteInfo = "Arthritis App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094A7BBFFF7E2D89C13E35C9 /* Pods-ArthritisApp-ArthritisAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthritisApp-ArthritisAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ArthritisApp-ArthritisAppUITests/Pods-ArthritisApp-ArthritisAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BE53B61FA1EEA2C3563B83D /* Pods-ArthritisAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthritisAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ArthritisAppTests/Pods-ArthritisAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D028E293DE008572753DCFB /* Pods-ArthritisAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthritisAppTests.release.xcconfig"; path = "Target Support Files/Pods-ArthritisAppTests/Pods-ArthritisAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4CF42F41C84F3E1256A5AD9F /* Pods_ArthritisApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArthritisApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC06FB823166970A2F42D88 /* Pods-ArthritisApp-ArthritisAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthritisApp-ArthritisAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArthritisApp-ArthritisAppUITests/Pods-ArthritisApp-ArthritisAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		872832382542718600ABE2DA /* ArthritisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArthritisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8728323B2542718600ABE2DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8728323D2542718600ABE2DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8728323F2542718600ABE2DA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		872832412542718600ABE2DA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		872832442542718600ABE2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		872832462542718A00ABE2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8728324B2542718A00ABE2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872832502542718B00ABE2DA /* ArthritisAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArthritisAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		872832542542718B00ABE2DA /* ArthritisAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthritisAppTests.swift; sourceTree = "<group>"; };
+		872832562542718B00ABE2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8728325B2542718B00ABE2DA /* ArthritisAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArthritisAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8728325F2542718B00ABE2DA /* ArthritisAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthritisAppUITests.swift; sourceTree = "<group>"; };
+		872832612542718B00ABE2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8728326D2542767900ABE2DA /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		8728326F254276AA00ABE2DA /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8772C5B125560E4900ED32A6 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		8772C5B52556132300ED32A6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8772C5BB255744CA00ED32A6 /* 7751-load.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "7751-load.json"; sourceTree = "<group>"; };
+		877883A72548F58400465549 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		877883B5254CE19200465549 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		87788431254D007800465549 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		87788433254DFD0200465549 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		87788435254E0FDE00465549 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		B3CBFA2A18B6D998BE792E91 /* Pods-ArthritisApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthritisApp.release.xcconfig"; path = "Target Support Files/Pods-ArthritisApp/Pods-ArthritisApp.release.xcconfig"; sourceTree = "<group>"; };
+		B817267F4F06AE895802DD45 /* Pods_ArthritisAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArthritisAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0442EB9F95D93D36D513B6 /* Pods-ArthritisApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthritisApp.debug.xcconfig"; path = "Target Support Files/Pods-ArthritisApp/Pods-ArthritisApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F95680C996C6830F73D67B39 /* Pods_ArthritisApp_ArthritisAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArthritisApp_ArthritisAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		872832352542718600ABE2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBA084166DA611C71EDEF77 /* Pods_ArthritisApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8728324D2542718B00ABE2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB69B66DCA93074BFE6B87C /* Pods_ArthritisAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872832582542718B00ABE2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C12FE9DCAAF1CBEB0A8AA57 /* Pods_ArthritisApp_ArthritisAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0028FE2CC98F5A4B902D5F03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF0442EB9F95D93D36D513B6 /* Pods-ArthritisApp.debug.xcconfig */,
+				B3CBFA2A18B6D998BE792E91 /* Pods-ArthritisApp.release.xcconfig */,
+				6FC06FB823166970A2F42D88 /* Pods-ArthritisApp-ArthritisAppUITests.debug.xcconfig */,
+				094A7BBFFF7E2D89C13E35C9 /* Pods-ArthritisApp-ArthritisAppUITests.release.xcconfig */,
+				1BE53B61FA1EEA2C3563B83D /* Pods-ArthritisAppTests.debug.xcconfig */,
+				1D028E293DE008572753DCFB /* Pods-ArthritisAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8728322F2542718600ABE2DA = {
+			isa = PBXGroup;
+			children = (
+				8728323A2542718600ABE2DA /* ArthritisApp */,
+				872832532542718B00ABE2DA /* ArthritisAppTests */,
+				8728325E2542718B00ABE2DA /* ArthritisAppUITests */,
+				872832392542718600ABE2DA /* Products */,
+				8778835E2546575800465549 /* Frameworks */,
+				0028FE2CC98F5A4B902D5F03 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		872832392542718600ABE2DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				872832382542718600ABE2DA /* ArthritisApp.app */,
+				872832502542718B00ABE2DA /* ArthritisAppTests.xctest */,
+				8728325B2542718B00ABE2DA /* ArthritisAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8728323A2542718600ABE2DA /* ArthritisApp */ = {
+			isa = PBXGroup;
+			children = (
+				8772C5BB255744CA00ED32A6 /* 7751-load.json */,
+				8772C5B52556132300ED32A6 /* Launch Screen.storyboard */,
+				8772C5B125560E4900ED32A6 /* loading.json */,
+				8728323B2542718600ABE2DA /* AppDelegate.swift */,
+				8728323D2542718600ABE2DA /* SceneDelegate.swift */,
+				8728323F2542718600ABE2DA /* FirstViewController.swift */,
+				872832412542718600ABE2DA /* SecondViewController.swift */,
+				8728326D2542767900ABE2DA /* ProgressViewController.swift */,
+				8728326F254276AA00ABE2DA /* InfoViewController.swift */,
+				872832462542718A00ABE2DA /* Assets.xcassets */,
+				8728324B2542718A00ABE2DA /* Info.plist */,
+				877883A72548F58400465549 /* GoogleService-Info.plist */,
+				877883B5254CE19200465549 /* WalkthroughContentViewController.swift */,
+				872832432542718600ABE2DA /* Main.storyboard */,
+				87788431254D007800465549 /* Onboarding.storyboard */,
+				87788433254DFD0200465549 /* WalkthroughPageViewController.swift */,
+				87788435254E0FDE00465549 /* WalkthroughViewController.swift */,
+			);
+			path = ArthritisApp;
+			sourceTree = "<group>";
+		};
+		872832532542718B00ABE2DA /* ArthritisAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				872832542542718B00ABE2DA /* ArthritisAppTests.swift */,
+				872832562542718B00ABE2DA /* Info.plist */,
+			);
+			path = ArthritisAppTests;
+			sourceTree = "<group>";
+		};
+		8728325E2542718B00ABE2DA /* ArthritisAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8728325F2542718B00ABE2DA /* ArthritisAppUITests.swift */,
+				872832612542718B00ABE2DA /* Info.plist */,
+			);
+			path = ArthritisAppUITests;
+			sourceTree = "<group>";
+		};
+		8778835E2546575800465549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CF42F41C84F3E1256A5AD9F /* Pods_ArthritisApp.framework */,
+				F95680C996C6830F73D67B39 /* Pods_ArthritisApp_ArthritisAppUITests.framework */,
+				B817267F4F06AE895802DD45 /* Pods_ArthritisAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		872832372542718600ABE2DA /* ArthritisApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872832642542718B00ABE2DA /* Build configuration list for PBXNativeTarget "ArthritisApp" */;
+			buildPhases = (
+				0DE9D25B1403DE3893B80DBA /* [CP] Check Pods Manifest.lock */,
+				872832342542718600ABE2DA /* Sources */,
+				872832352542718600ABE2DA /* Frameworks */,
+				872832362542718600ABE2DA /* Resources */,
+				057998ABB862E2C59EA8AFDC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArthritisApp;
+			productName = "Arthritis App";
+			productReference = 872832382542718600ABE2DA /* ArthritisApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8728324F2542718B00ABE2DA /* ArthritisAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872832672542718B00ABE2DA /* Build configuration list for PBXNativeTarget "ArthritisAppTests" */;
+			buildPhases = (
+				91C54B1157C4B8D8D5DA557A /* [CP] Check Pods Manifest.lock */,
+				8728324C2542718B00ABE2DA /* Sources */,
+				8728324D2542718B00ABE2DA /* Frameworks */,
+				8728324E2542718B00ABE2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				872832522542718B00ABE2DA /* PBXTargetDependency */,
+			);
+			name = ArthritisAppTests;
+			productName = "Arthritis AppTests";
+			productReference = 872832502542718B00ABE2DA /* ArthritisAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8728325A2542718B00ABE2DA /* ArthritisAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8728326A2542718B00ABE2DA /* Build configuration list for PBXNativeTarget "ArthritisAppUITests" */;
+			buildPhases = (
+				99C66DCBFEFCDAA6968930E3 /* [CP] Check Pods Manifest.lock */,
+				872832572542718B00ABE2DA /* Sources */,
+				872832582542718B00ABE2DA /* Frameworks */,
+				872832592542718B00ABE2DA /* Resources */,
+				F51718256535A414740D4F0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8728325D2542718B00ABE2DA /* PBXTargetDependency */,
+			);
+			name = ArthritisAppUITests;
+			productName = "Arthritis AppUITests";
+			productReference = 8728325B2542718B00ABE2DA /* ArthritisAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		872832302542718600ABE2DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Danielle Ribeiro";
+				TargetAttributes = {
+					872832372542718600ABE2DA = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+					8728324F2542718B00ABE2DA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 872832372542718600ABE2DA;
+					};
+					8728325A2542718B00ABE2DA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 872832372542718600ABE2DA;
+					};
+				};
+			};
+			buildConfigurationList = 872832332542718600ABE2DA /* Build configuration list for PBXProject "ArthritisApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8728322F2542718600ABE2DA;
+			productRefGroup = 872832392542718600ABE2DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				872832372542718600ABE2DA /* ArthritisApp */,
+				8728324F2542718B00ABE2DA /* ArthritisAppTests */,
+				8728325A2542718B00ABE2DA /* ArthritisAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		872832362542718600ABE2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8772C5B62556132300ED32A6 /* Launch Screen.storyboard in Resources */,
+				877883A82548F58500465549 /* GoogleService-Info.plist in Resources */,
+				872832472542718A00ABE2DA /* Assets.xcassets in Resources */,
+				872832452542718600ABE2DA /* Main.storyboard in Resources */,
+				87788432254D007800465549 /* Onboarding.storyboard in Resources */,
+				8772C5B225560E4A00ED32A6 /* loading.json in Resources */,
+				8772C5BC255744CA00ED32A6 /* 7751-load.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8728324E2542718B00ABE2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877883A92548F58500465549 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872832592542718B00ABE2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877883AA2548F58500465549 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		057998ABB862E2C59EA8AFDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArthritisApp/Pods-ArthritisApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArthritisApp/Pods-ArthritisApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArthritisApp/Pods-ArthritisApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DE9D25B1403DE3893B80DBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArthritisApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		91C54B1157C4B8D8D5DA557A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArthritisAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C66DCBFEFCDAA6968930E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArthritisApp-ArthritisAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51718256535A414740D4F0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArthritisApp-ArthritisAppUITests/Pods-ArthritisApp-ArthritisAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArthritisApp-ArthritisAppUITests/Pods-ArthritisApp-ArthritisAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArthritisApp-ArthritisAppUITests/Pods-ArthritisApp-ArthritisAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		872832342542718600ABE2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8728326E2542767900ABE2DA /* ProgressViewController.swift in Sources */,
+				872832422542718600ABE2DA /* SecondViewController.swift in Sources */,
+				87788434254DFD0200465549 /* WalkthroughPageViewController.swift in Sources */,
+				87788436254E0FDE00465549 /* WalkthroughViewController.swift in Sources */,
+				872832402542718600ABE2DA /* FirstViewController.swift in Sources */,
+				8728323C2542718600ABE2DA /* AppDelegate.swift in Sources */,
+				87283270254276AA00ABE2DA /* InfoViewController.swift in Sources */,
+				8728323E2542718600ABE2DA /* SceneDelegate.swift in Sources */,
+				877883B6254CE19300465549 /* WalkthroughContentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8728324C2542718B00ABE2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872832552542718B00ABE2DA /* ArthritisAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872832572542718B00ABE2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872832602542718B00ABE2DA /* ArthritisAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		872832522542718B00ABE2DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 872832372542718600ABE2DA /* ArthritisApp */;
+			targetProxy = 872832512542718B00ABE2DA /* PBXContainerItemProxy */;
+		};
+		8728325D2542718B00ABE2DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 872832372542718600ABE2DA /* ArthritisApp */;
+			targetProxy = 8728325C2542718B00ABE2DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		872832432542718600ABE2DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				872832442542718600ABE2DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		872832622542718B00ABE2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		872832632542718B00ABE2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		872832652542718B00ABE2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0442EB9F95D93D36D513B6 /* Pods-ArthritisApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X43Z9XVQ26;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					/Applications/MATLAB_R2019b.app/extern/include,
+				);
+				INFOPLIST_FILE = ArthritisApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielle-Ribeiro.Arthritis-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		872832662542718B00ABE2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CBFA2A18B6D998BE792E91 /* Pods-ArthritisApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X43Z9XVQ26;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					/Applications/MATLAB_R2019b.app/extern/include,
+				);
+				INFOPLIST_FILE = ArthritisApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielle-Ribeiro.Arthritis-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		872832682542718B00ABE2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE53B61FA1EEA2C3563B83D /* Pods-ArthritisAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X43Z9XVQ26;
+				INFOPLIST_FILE = "Arthritis AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielle-Ribeiro.Arthritis-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArthritisApp.app/ArthritisApp";
+			};
+			name = Debug;
+		};
+		872832692542718B00ABE2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D028E293DE008572753DCFB /* Pods-ArthritisAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X43Z9XVQ26;
+				INFOPLIST_FILE = "Arthritis AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielle-Ribeiro.Arthritis-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArthritisApp.app/ArthritisApp";
+			};
+			name = Release;
+		};
+		8728326B2542718B00ABE2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC06FB823166970A2F42D88 /* Pods-ArthritisApp-ArthritisAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X43Z9XVQ26;
+				INFOPLIST_FILE = "Arthritis AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielle-Ribeiro.Arthritis-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arthritis App";
+			};
+			name = Debug;
+		};
+		8728326C2542718B00ABE2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094A7BBFFF7E2D89C13E35C9 /* Pods-ArthritisApp-ArthritisAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X43Z9XVQ26;
+				INFOPLIST_FILE = "Arthritis AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielle-Ribeiro.Arthritis-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arthritis App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		872832332542718600ABE2DA /* Build configuration list for PBXProject "ArthritisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872832622542718B00ABE2DA /* Debug */,
+				872832632542718B00ABE2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		872832642542718B00ABE2DA /* Build configuration list for PBXNativeTarget "ArthritisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872832652542718B00ABE2DA /* Debug */,
+				872832662542718B00ABE2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		872832672542718B00ABE2DA /* Build configuration list for PBXNativeTarget "ArthritisAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872832682542718B00ABE2DA /* Debug */,
+				872832692542718B00ABE2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8728326A2542718B00ABE2DA /* Build configuration list for PBXNativeTarget "ArthritisAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8728326B2542718B00ABE2DA /* Debug */,
+				8728326C2542718B00ABE2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 872832302542718600ABE2DA /* Project object */;
+}
